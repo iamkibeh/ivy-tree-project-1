@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+}
+
+
+.row{
+display:flex;
+flex-direction: column;
+width: 100%;
+
+}
+
+
+.hero-part{
+	background-color:yellow;
+}
+
+.my-pic img{
+
+	width:500px;
+
+	float: right;
+	margin-top:-60vh;
+
+}
+
+
+.hero {
+
+	margin-left: 70px;
+
+	margin-top:28vh;
+
+
+
+}
+
+.hero h1, p{
+	margin-top: 5vh;
+}
+
+
+.hero button{
+
+width: 200px;
+height: 50px;
+background-color: aqua;
+border-style: none;
+border-radius: 5px;
+
+
+
+}
+
+
+
+.hero button:hover{
+background-color: red;
+
+
+}
+
+.about{
+	text-align: center;
+
+	margin: 5vh;
+	border-radius: 10px;
+}
+
+.about h1{
+
+	text-decoration: underline yellow;
+
+}
+.Projects{
+	display:flex;
+}
+
+
+.col-md-6{
+	display:flex;
+    margin-left: 50px;
+
+}
+.row {
+	display: flex;
+  }
+
+  h2{
+	  text-align: center;
+	  margin:5vh;
+	  margin-bottom: -2vh;
+	  text-decoration: underline;
+  }
+
+
+  .contact button{
+	width:200px;
+	height:50px;
+	border-style: none;
+	margin-top: 20px;
+	background-color: aqua;
+	cursor:pointer;
+  }
+
+.footer-section{
+
+margin-top: 20vh;
+
+	text-align: center;
+	background-color: lightgrey;
+	height:200px;
+
+}
+
+.footer{
+	margin: 5vh;
+	margin-top: 10vh;
+
+}
+
+.footer button{
+	margin: 3vh;
+	background-color:aqua;
+	border-style: none;
+	width: 200px;
+	height: 50px;
+	cursor:pointer;
+}
